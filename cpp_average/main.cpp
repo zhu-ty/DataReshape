@@ -68,6 +68,13 @@ int main(int argc, char* argv[])
 	try
 	{
 		int input_count = argc - 3;
+
+		if (input_count < 2)
+		{
+			cout << "\033[1;33m";
+			printf("WARNING: Only 1 data file found\n");
+			cout << "\033[0m";
+		}
 		
 		//vector<vector<vector<double>>> data;
 		vector<vector<double>> output;

@@ -35,4 +35,4 @@ do
     ./Compare $list $folder/$ii/COLUMN
 done
 
-echo "done"
+printf "\033[1;32mdone\033[0m\n"
