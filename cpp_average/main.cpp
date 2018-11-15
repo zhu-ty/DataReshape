@@ -83,9 +83,9 @@ int main(int argc, char* argv[])
 		int ROW = 0;
 		if(rows> 19 && rows <= 49)
 			ROW = 20;
-		else if(rows > 50 && rows <= 59)
+		else if(rows > 49 && rows <= 59)
 			ROW = 50;
-		else if(rows > 60 && rows <= 199)
+		else if(rows > 59 && rows <= 199)
 			ROW = 60;
 		else
 			ROW = 200;
